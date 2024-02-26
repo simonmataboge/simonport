@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascrpit" src="jquery-3.3.1.slim.min.js">
+    </script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="popper.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Simon Mataboge</title>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            Simon
+            <a href="#" onclick="openNav()">☰ </a>
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#home" style="--i:1;">Home</a>
+                <a href="#about" style="--i:2;">About</a>
+                <a href="#services" style="--i:3;">Services</a>
+                <a href="#skills" style="--i:4;">Skills</a>
+                <a href="#portfolio" style="--i:5;">Portfolio</a>
+                <a href="#contacts" style="--i:6;">Contact</a>
+            </div>
+        </div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#services" style="--i:3;">Services</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contacts" style="--i:6;">Contact</a></li>
+        </ul>
+ 
+
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "450px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+    </script>
+
+    <div id="home">
+        <div class="home">
+            <div class="left-container">
+                <h2>
+                    Hi! <br />
+                    My name is Simon
+                </h2>
+                <div class="text">
+                    <p>
+                        I also do IT consultation, company registrations and SARS representative
+                    </p>
+                    <div class="buy-btn">
+                        <a href="about.html" class="btn"> About Me</a>
+                        <a href="#contacts" class="btn">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-container">
+                <div class="design">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="about">
+            <h1>About Me</h1>
+            <div class="design">
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <div class="right-container">
+                <p>
+                    The word i would use to describe myself is <b>"Ambitious"</b>.
+                    I particularly enjoy working as part of a team, I find solutions,
+                    get creative<br />
+
+                    Well behaved, well presented person who is passionate about everything he does,
+                    Hard working person who always make sure he gets his work done, he is a fast learner,
+                    dedicated and a very good listiner.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="services">
+            <h1>Services</h1>
+            <div class="services-box">
+                <div class="services-website">
+                    <h6>Website Development</h6>
+                    <p>I develop websites from scratch or using templates of your choice</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-graphic">
+                    <h6>Graphic Design</h6>
+                    <p>Include range of logo designs, certificates, business cards</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-company">
+                    <h6>Company Registrations</h6>
+                    <p>I also do IT consultation, company registrations and SARS consultations</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="testimonials">
+        <div class="testimonials">
+            <h1>Skills</h1>
+
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1" />
+                    <input type="radio" name="radio-btn" id="radio2" />
+                    <input type="radio" name="radio-btn" id="radio3" />
+                    <input type="radio" name="radio-btn" id="radio4" />
+
+                    <div class=" slide first">
+                        <img alt="logo" src="edward.jpg" />
+                        <div class="info">
+                            <h4>Programming</h4>
+                            <ul>
+                                <li>Website Development</li>
+                                <li>Application development</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" slide">
+                        <img alt="logo" src="marvin.jpg" />
+                        <div class="info">
+                            <h4>Typing</h4>
+                            <ul>
+                                <li>Microsoft Suit</li>
+                                <li>Google Suit</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" slide">
+                        <img alt="logo" src="glenn.jpg" />
+                        <div class="info">
+                            <h4>Consultation</h4>
+                            <ul>
+                                <li>SARS</li>
+                                <li>CIPC</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" slide">
+                        <img alt="logo" src="joshua.jpg" />
+                        <div class="info">
+                            <h4>Technical</h4>
+                            <ul>
+                                <li>Computer Technician</li>
+                                <li>Network Achitect</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if (counter > 4) {
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
+        </div>
+    </div>
+
+
+
+    <div id="portfolio">
+        <div class="portfolio">
+            <h1>Portfolio</h1>
+            <div class="portfolio-box">
+                <h6>Website Development</h6>
+                <img src="entertain.png" alt="" />
+            </div>
+            <div class="portfolio-box">
+                <h6>Graphic Design</h6>
+                <img src="icon1.png" alt="" />
+            </div>
+            <div class="portfolio-box">
+                <h6>Company Registrations</h6>
+                <img src="icon2.png" alt="" />
+            </div>
+            <div class="portfolio-box">
+                <h6>Website Development</h6>
+                <img src="advert.png" alt="" />
+            </div>
+            <div class="portfolio-box">
+                <h6>Graphic Design</h6>
+                <img src="blog.png" alt="" />
+            </div>
+            <div class="portfolio-box">
+                <h6>Company Registrations</h6>
+                <img src="picture.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="contacts">
+        <div class="contacts">
+            <h1>Get in touch</h1>
+
+            <div class="col-lg">
+                <form method="post">
+                    <ul>
+                        <div class="col-75">
+                            <input type="text" id="name" name="name" placeholder="Name" />
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="col-75">
+                            <input type="text" id="surname" name="surname" placeholder="Surname" />
+                        </div>
+                    </ul>
+
+
+                    <ul>
+                        <div class="col-75">
+                            <textarea type="text" style="" id="message" name="message" placeholder="Message"></textarea>
+                        </div>
+                    </ul>
+                    <div class="form-group">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="footer">
+            <div class="left-container">
+                <p>I also do IT consultation, company registrations and SARS representative</p>
+            </div>
+
+
+            <div class="right-container">
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
