@@ -16,6 +16,11 @@ body
     align-items:center;
     
 }
+@media screen and (max-width:400px ) {
+   .header {
+        width:490px;
+    }
+}
 .navlist {
     margin-left:160px;
     margin-top:-40px;
