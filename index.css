@@ -257,11 +257,7 @@ home-container {
     margin-left: 70%;
     margin-top: -500px;
 }
-@media screen and (max-width:400px ) {
-    .right-container  {
-        margin-left: 80%;
-    }
-}
+
 .design{
     margin-left:500px;
     margin-top:-60px;
