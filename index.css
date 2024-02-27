@@ -280,7 +280,7 @@ home-container {
 @media screen and (max-width:400px ) {
     .design .circle {
         margin-top:400px;
-        left: 25%;
+        left: 32%;
     }
 }
 .circle:nth-child(1){
