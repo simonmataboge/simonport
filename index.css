@@ -266,6 +266,12 @@ home-container {
     margin-left:500px;
     margin-top:-60px;
 }
+@media screen and (max-width:400px ) {
+    .design  {
+        margin-left: 300px;
+	    margin-top:0px;
+    }
+}
 .design .circle{
     aspect-ratio: 1;
     position:absolute;
